@@ -1,0 +1,43 @@
+.snsBtnBox {
+    background:#222;
+}
+.snsBtn {
+    width:1200px;
+    margin:0 auto;
+}
+
+.snsBtn a {
+    font-size:50px;
+}
+.footerBoxWrap {
+    background:#000;
+}
+.footerBox {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:1200px;
+    margin:0 auto;
+}
+
+.footerBox img {
+    margin:20px 0;
+}
+
+.footerBox ul {
+    display:flex;
+}
+
+.footerBox ul li a {
+    font-size:12px;
+}
+
+.footerBox p {
+    text-align: center;
+    font-size:12px;
+    color:#999;
+}
+
+.FtInfo {
+    margin-bottom:20px;
+}

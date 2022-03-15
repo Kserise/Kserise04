@@ -1,0 +1,27 @@
+@import url("./GlobalStyles.css"); 
+
+.news {
+    background:url(../imgs/sunsetBg.jpg) repeat center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.topArticle {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1300px;
+    height:700px;
+    margin:0 auto;
+}
+
+.bottomArticle {
+    width:1300px;
+    margin:0 auto;
+}
+
+.secondSection {
+    padding:50px 0;
+    background:#eee;
+}
+

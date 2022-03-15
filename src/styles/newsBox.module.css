@@ -1,0 +1,49 @@
+.newsBox {
+    display:flex;
+    flex-direction: column;
+    width:32%;
+    height:450px;
+    padding:15px;
+    background:rgba(0,0,0,0.7);
+    border-radius: 10px;
+    color:#fff;
+    cursor:pointer;
+}
+
+
+.imgBox {
+    position:relative;
+    width:100%;
+    height:190px;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+
+.imgBox img {
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    transition:0.4s;
+}
+
+.newsBox:hover .imgBox img {
+    transform:scale(1.2);
+}
+
+.textBox h3 {
+    margin-bottom:20px;
+    font-size:24px;
+    font-weight:500;
+}
+.date {
+    display:flex;
+    justify-content: space-between;
+    margin-top:auto;
+    color:#999;
+}
+
+.date p:last-child {
+    color:rgb(255, 166, 0)
+}

@@ -1,0 +1,41 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9;
+    width:100%;
+    min-width:950px;
+    height:60px;
+    background:rgba(0,0,0,0.7);
+    box-shadow:0 3px 4px rgba(0,0,0,0.3);
+}
+nav {
+    margin-right:auto;
+}
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    margin-right:30px;
+    text-decoration: none;
+    color:#999;
+}
+ul li a:hover {
+    color:#fff;
+}
+.gameStart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height:100%;
+    background:rgb(255, 208, 0);
+}
+.gameStart a {
+    text-decoration: none;
+    color:#333;
+}
