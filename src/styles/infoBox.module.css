@@ -1,0 +1,64 @@
+.infoBox {
+    display:flex;
+    justify-content: space-between;
+    position:relative;
+    width:1200px;
+    height:350px;
+    margin:0 auto 120px;
+}
+
+.infoBox .infoText {
+    position:absolute;
+    top:-50px;
+    width:33%;
+    height:350px;
+    padding:30px;
+    background:rgb(255, 237, 198);
+    box-shadow:0 3px 4px rgba(0,0,0,0.3);
+}
+.infoBox .infoText:before {
+    content:"";
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    width:92%;
+    height:90%;
+    border:2px solid rgb(255, 181, 111);
+}
+
+.infoBox .infoText h3 {
+    padding:30px 0 20px;
+    text-align:center;
+    font-size:32px;
+    font-weight:600;
+    color:rgba(0,0,0,0.7);
+}
+.infoBox .infoText p {
+    font-size:18px;
+    color:rgba(0,0,0,0.7);
+}
+
+.infoBox .infoImg {
+    width:75%;
+    background:#fc0;
+    box-shadow:0 3px 4px rgba(0,0,0,0.5);
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.infoBox:nth-child(odd) .infoText {
+    left:0;
+}
+
+.infoBox:nth-child(odd) .infoImg {
+    margin-left:auto;
+}
+
+.infoBox:nth-child(even) .infoText {
+    right:0;
+}
+
+.infoBox:nth-child(even) .infoImg {
+    margin-right:auto;
+}

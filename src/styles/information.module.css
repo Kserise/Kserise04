@@ -1,0 +1,12 @@
+.infoBg h1 {
+    padding:150px 0;
+    color:#fff;
+    font-size:50px;
+    text-shadow:0 0 10px rgba(0,0,0,0.3);
+    text-align:center;
+}
+.infoBg > img {
+    position:fixed; z-index:-3;
+    width:100%;
+    filter:brightness(85%);
+}

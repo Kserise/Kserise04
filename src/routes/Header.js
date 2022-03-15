@@ -13,7 +13,7 @@ function Header(){
                         <Link to="/">홈</Link>
                         <Link to="/news">소식</Link>
                         <Link to="/char">캐릭터</Link>
-                        <a href="#">정보</a>
+                        <Link to="/info">정보</Link>
                         <a href="#">상점</a>
                     </li>
                 </ul>
