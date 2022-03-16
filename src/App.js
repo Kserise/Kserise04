@@ -12,11 +12,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/board" element={<Board/>}/>
-        <Route path="/info" element={<Info/>}/>
-        <Route path="/char" element={<Char/>}/>
-        <Route path="/news" element={<News/>}/>
-        <Route path="/" element={<Home/>} />
+        <Route path={process.env.PUBLIC_URL + "/board"} element={<Board/>}/>
+        <Route path={process.env.PUBLIC_URL + "/info"} element={<Info/>}/>
+        <Route path={process.env.PUBLIC_URL + "/char"} element={<Char/>}/>
+        <Route path={process.env.PUBLIC_URL + "/news"}element={<News/>}/>
+        <Route path={process.env.PUBLIC_URL + "/"} element={<Home/>} />
       </Routes>
     </Router>
   )
