@@ -14,12 +14,12 @@ function Header(){
                         <Link to="/news">소식</Link>
                         <Link to="/char">캐릭터</Link>
                         <Link to="/info">정보</Link>
-                        <a href="#">상점</a>
+                        <Link to="/board">커뮤니티</Link>
                     </li>
                 </ul>
             </nav>
             <div className={Styles.gameStart}>
-                <h3><a href="https://kserise.github.io/game/">게임스타트</a></h3>
+                <a href="https://kserise.github.io/game/">게임 시작</a>
             </div>
         </div>
     )

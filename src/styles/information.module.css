@@ -8,5 +8,4 @@
 .infoBg > img {
     position:fixed; z-index:-3;
     width:100%;
-    filter:brightness(85%);
 }

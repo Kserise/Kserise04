@@ -2,6 +2,7 @@ import Home from "./routes/Home";
 import News from "./routes/News";
 import Char from "./routes/Characters";
 import Info from "./routes/Information";
+import Board from "./routes/Board";
 import {
   BrowserRouter as Router,
   Routes,
@@ -11,6 +12,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/board" element={<Board/>}/>
         <Route path="/info" element={<Info/>}/>
         <Route path="/char" element={<Char/>}/>
         <Route path="/news" element={<News/>}/>

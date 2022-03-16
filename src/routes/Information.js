@@ -5,7 +5,7 @@ import Infor01 from "../imgs/infor01.jpg";
 import Infor02 from "../imgs/infor02.jpg";
 import Infor03 from "../imgs/infor03.jpg";
 import Infor04 from "../imgs/infor04.jpg";
-import InfoBg from "../imgs/sunset.jpg";
+import InfoBg from "../imgs/rapidStarBg.jpg";
 import Styles from "../styles/information.module.css";
 function Information(){
     return (
