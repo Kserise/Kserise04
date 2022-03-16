@@ -1,5 +1,6 @@
-.snsBtnBox {
-    background:#222;
+.footer {
+    padding:50px 0;
+    background:#000;
 }
 .snsBtn {
     width:1200px;
@@ -8,9 +9,6 @@
 
 .snsBtn a {
     font-size:50px;
-}
-.footerBoxWrap {
-    background:#000;
 }
 .footerBox {
     display:flex;

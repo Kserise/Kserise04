@@ -1,19 +1,11 @@
 import Styles from "../styles/footer.module.css";
 import Age from "../imgs/15age.png";
-import Logo from "../imgs/logo.png"
+import Logo from "../imgs/mainLogo.png"
 function Footer(){
     return (
         <div className={Styles.footer}>
             <div className={Styles.snsBtnBox}>
                 <div className={Styles.snsBtn}>
-                    <a href="#">ㅇ</a>
-                    <a href="#">ㅇ</a>
-                    <a href="#">ㅇ</a>
-                    <a href="#">ㅇ</a>
-                    <a href="#">ㅇ</a>
-                    <a href="#">ㅇ</a>
-                    <a href="#">ㅇ</a>
-                    <a href="#">ㅇ</a>
                 </div>
             </div>
             <div className={Styles.footerBoxWrap}>
@@ -30,8 +22,7 @@ function Footer(){
                         <img src={Age}/>
                     </div>
                     <p className={Styles.FtInfo}>
-                        "PlayStation Family Mark," "PS5 logo" and "PS4 logo" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.
-                        Epic, Epic Games, Epic Games Store, the Epic Games Store logo, and Epic Online Services are trademarks and/or registered trademarks of Epic Games. All other trademarks are the property of their respective owners.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ab enim pariatur error aspernatur! Sunt rerum possimus tenetur voluptatum corporis quo, sint autem deleniti totam pariatur ab labore est explicabo.
                     </p>
                     <p>Copyright © COGNOSPHERE. All Rights Reserved.</p>
                 </div>
